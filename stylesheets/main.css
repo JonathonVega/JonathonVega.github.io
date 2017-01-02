@@ -1,0 +1,177 @@
+/*************************************
+
+General Setup 
+
+*************************************/
+
+body {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font: inherit;
+  	vertical-align: baseline;
+
+}
+
+header {
+	margin: 0 0 50px 0;
+  	padding: 20px;
+  	border: 0;
+  	font: inherit;
+  	vertical-align: baseline;
+  	/*width: 100%;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font: inherit;
+  	vertical-align: baseline;
+}
+
+nav ul {
+	margin: 0;
+	text-align: right;
+}
+
+nav li {
+	font-size: 17px;
+	display: inline;
+	margin: 0 15px;
+
+}
+
+
+
+/*************************************
+
+About Page 
+
+*************************************/
+
+#about-me {
+	margin-bottom: 20px;
+	border: 1px solid red;
+}
+
+#about {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid red;
+	font-size: 20px;
+	
+}
+
+div img {
+	border: 1px solid red;
+	margin: 0 0 0 10%;
+	display: block;
+	float: left;
+	height: auto;
+	max-height 300px;
+	max-width: 300px;
+}
+
+
+
+/*************************************
+
+Blog Page
+
+*************************************/
+
+#blog {
+	border: 1px solid red;
+}
+
+.post {
+	border: 1px solid black;
+	margin: 0 300px 50px;
+	padding: 0 20px;
+	box-shadow: 10px 10px 5px #888888;
+	font-size: 18px;
+}
+
+.post h3 {
+	text-align: center;
+}
+
+.post p {
+	text-indent: 50px;
+}
+
+
+
+/*************************************
+
+Resumé Page
+
+*************************************/
+
+
+
+
+/*************************************
+
+Contact
+
+*************************************/
+
+
+
+
+
+/*************************************
+
+Footer
+
+*************************************/
+
+footer {
+	border: 1px solid red;
+}
+
+
+
+
+/*************************************
+
+Colors 
+
+*************************************/
+
+body {
+	background: 000000;
+}
+
+header {
+	background-color: #4a4a4a;
+}
+
+footer {
+	background-color: orange;
+}
+
+
+/*************************************
+
+Links
+
+*************************************/
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: orange;
+}
+
+
+
+
