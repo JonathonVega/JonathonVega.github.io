@@ -1,3 +1,4 @@
+
 /*************************************
 
 General Setup 
@@ -14,12 +15,16 @@ body {
 }
 
 header {
-	margin: 0 0 50px 0;
+	margin: 15px 0 50px 0;
   	padding: 20px;
   	border: 0;
   	font: inherit;
   	vertical-align: baseline;
-  	/*width: 100%;*/
+}
+
+.navline {
+	padding-right: 15px;
+	border-right: 1px solid #D69764;
 }
 
 a {
@@ -36,14 +41,13 @@ nav {
 
 nav ul {
 	margin: 0;
-	text-align: right;
+	text-align: center;
 }
 
 nav li {
 	font-size: 17px;
 	display: inline;
-	margin: 0 15px;
-
+	padding-left: 15px;
 }
 
 
@@ -54,27 +58,21 @@ About Page
 
 *************************************/
 
-#about-me {
-	margin-bottom: 20px;
-	border: 1px solid red;
-}
-
 #about {
-	width: 70%;
+	width: 750px;
 	margin: 0 auto;
-	border: 1px solid red;
+ 	/*border: 1px solid red;*/
 	font-size: 20px;
 	
 }
 
-div img {
-	border: 1px solid red;
-	margin: 0 0 0 10%;
-	display: block;
-	float: left;
-	height: auto;
-	max-height 300px;
-	max-width: 300px;
+#about p {
+	text-align: center;
+	line-height: 28px;
+}
+
+#skills {
+	text-indent: 50px;
 }
 
 
@@ -86,24 +84,62 @@ Blog Page
 *************************************/
 
 #blog {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 
-.post {
-	border: 1px solid black;
-	margin: 0 300px 50px;
-	padding: 0 20px;
-	box-shadow: 10px 10px 5px #888888;
+.firstPost {
+	width: 750px;
+	margin: 0 auto 50px;
 	font-size: 18px;
 }
 
+.firstPost h3 {
+	text-align: left;
+}
+
+.firstPost p {
+	text-indent: 50px;
+	line-height: 28px;
+}
+
+.post {
+	/*border: 1px solid red;*/
+	width: 750px;
+	margin: 0 auto 50px;
+	/*box-shadow: 10px 10px 5px #888888;*/
+	font-size: 18px;
+	border-bottom: 1px solid #EE7500;
+}
+
 .post h3 {
-	text-align: center;
+	text-align: left;
 }
 
 .post p {
 	text-indent: 50px;
+	line-height: 28px;
 }
+
+#blog .date {
+	align: left;
+	text-indent: 0px;
+	margin-top: -15px;
+}
+
+
+
+
+
+/*************************************
+
+Project Page
+
+*************************************/
+
+#projects p{
+	text-indent: 50px;
+}
+
 
 
 
@@ -113,7 +149,10 @@ Resumé Page
 
 *************************************/
 
-
+#resume {
+	width: 750px;
+	margin:0 auto;
+}
 
 
 /*************************************
@@ -122,18 +161,20 @@ Contact
 
 *************************************/
 
+#contact_info {
+	text-indent: 50px;
+	text-decoration: none;
+}
 
+#contact_info li {
+	list-style-type: none;
+	width: 100px;
+	height: 100px;
+}
 
-
-
-/*************************************
-
-Footer
-
-*************************************/
-
-footer {
-	border: 1px solid red;
+#contact_info img {
+	width: 50px;
+	height: 50px;
 }
 
 
@@ -144,19 +185,41 @@ footer {
 Colors 
 
 *************************************/
-
-body {
-	background: 000000;
-}
+/*
+persimmon: #EE7500
+nut brown: #F1EDEA
+almond: #F1EDEA
+grey: #636363
+slate: #393D40
+*/
 
 header {
-	background-color: #4a4a4a;
+	background-color: #FFF;
 }
 
-footer {
-	background-color: orange;
+header div {
+	background: #D69764;
 }
 
+body {
+	background: #FFFFFF;
+}
+
+.post {
+	background: #FFF;
+}
+
+.post h3 {
+	color: #393D40;
+}
+
+.post p {
+	color: #636363;
+}
+
+p {
+	color: #393D40;
+}
 
 /*************************************
 
@@ -169,8 +232,13 @@ a:link {
 }
 
 a:visited {
-	color: orange;
+	color: #393D40;
 }
+
+a:hover {
+	color: #EE7500;
+}
+
 
 
 
