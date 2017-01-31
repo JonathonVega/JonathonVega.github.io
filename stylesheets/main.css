@@ -222,6 +222,7 @@ Contact
 #contact_info img {
 	width: 40px;
 	height: 40px;
+	margin: 0 1px;
 }
 
 #contact_info p {
