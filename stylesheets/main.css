@@ -6,14 +6,12 @@ General Setup
 
 body {
   	margin: 30px 300px;
-
 	/*padding: 35px 375px;*/
 }
 
 header {
 	margin-bottom: 25px;
-  	/*padding: 20px;
-  	border: 1px solid red;*/
+  	/*padding: 20px;*/
 }
 
 
@@ -48,14 +46,12 @@ nav li {
 	margin-top: -25px;
 	width: 45%;
 	float: left;
-	/*border: 1px solid red;*/
 }
 
 .RightColumn {
 	margin-top: -25px;
 	float: right;
 	width: 45%;
-	/*border: 1px solid red;*/
 }
 
 
@@ -68,8 +64,14 @@ About Page
 
 #about {
 	margin: 0 auto;
- 	/*border: 1px solid red;*/
 	font-size: 18px;
+}
+
+#about img {
+	width: 45%;
+	height: 45%;
+	margin: 0 27%;
+	border-radius: 100%;
 }
 
 #about p {
@@ -141,10 +143,8 @@ Blog Page
 }
 
 .post {
-	/*border: 1px solid red;*/
 	width: 750px;
 	margin: 0 auto 50px;
-	/*box-shadow: 10px 10px 5px #888888;*/
 	font-size: 18px;
 	border-bottom: 1px solid #EE7500;
 }
@@ -189,19 +189,70 @@ Resumé Page
 	margin:0 auto;
 }
 
+#resume p {
+	color: #636363;
+}
+
 #resume .LeftColumn {
-	width: 30%;
+	width: 20%;
 	font-size: 20px;
 }
 
 #resume .RightColumn {
 	width: 60%;
 	font-size: 20px;
+	padding:0 30px;
+}
+
+#Skills {
+	border-bottom: 1px solid #636363;
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+#Skills .LeftColumn {
+	padding: 0;
+}
+
+#Skills .RightColumn{
+	overflow: hidden;
+}
+
+#Skills .RightColumn .LeftColumn{
+	padding-top: 20px;
+	width: 45%;
+}
+
+#Skills .RightColumn .LeftColumn ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
+#Skills .RightColumn .RightColumn {
+	padding-top: 20px;
+	width: 40%;
+}
+
+#Skills .RightColumn .RightColumn ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
 }
 
 #experience {
-	border-bottom: 1px solid #EE7500;
+	padding: 40px 0;
+	border-bottom: 1px solid #636363;
 	overflow: hidden;
+}
+
+#education {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+#education {
+	
 }
 
 
