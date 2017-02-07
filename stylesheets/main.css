@@ -266,7 +266,7 @@ Contact
 	text-decoration: none;
 }
 
-#contact_info .LeftColumn {
+#contact_info .LeftColumn a{
 	font-size: 20px;
 	display: block;
 }
