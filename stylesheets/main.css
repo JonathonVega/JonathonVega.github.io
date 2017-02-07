@@ -267,7 +267,8 @@ Contact
 }
 
 #contact_info div a {
-	font-size: 24px;
+	font-size: 20px;
+	display: block;
 }
 
 #contact_info img {
