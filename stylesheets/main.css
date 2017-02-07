@@ -266,9 +266,13 @@ Contact
 	text-decoration: none;
 }
 
-#contact_info div a {
+#contact_info .LeftColumn {
 	font-size: 20px;
 	display: block;
+}
+
+#contact_info .RightColumn {
+	font-size: 20px;
 }
 
 #contact_info img {
