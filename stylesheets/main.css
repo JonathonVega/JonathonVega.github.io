@@ -138,8 +138,7 @@ Blog Page
 }
 
 .firstPost p {
-	text-indent: 50px;
-	line-height: 28px;
+	
 }
 
 .post {
@@ -173,7 +172,6 @@ Project Page
 *************************************/
 
 #projects p{
-	text-indent: 50px;
 	font-size: 18px;
 }
 
