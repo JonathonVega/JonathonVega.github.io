@@ -56,6 +56,7 @@ nav li {
 
 
 
+
 /*************************************
 
 About Page 
@@ -116,6 +117,9 @@ About Page
 	text-align: left;
 }
 
+#more p {
+	line-height: 12px;
+}
 
 
 /*************************************
@@ -138,7 +142,8 @@ Blog Page
 }
 
 .firstPost p {
-	
+	/*text-indent: 50px;
+	line-height: 28px;*/
 }
 
 .post {
@@ -172,6 +177,7 @@ Project Page
 *************************************/
 
 #projects p{
+	/*text-indent: 50px;*/
 	font-size: 18px;
 }
 
@@ -192,19 +198,27 @@ Resumé Page
 }
 
 #resume .LeftColumn {
-	width: 20%;
+	width: 10%;
 	font-size: 20px;
 }
 
 #resume .RightColumn {
-	width: 60%;
+	width: 70%;
 	font-size: 20px;
 	padding:0 30px;
 }
 
+.position {
+	color: #393D40;
+}
+
+.description {
+	font-size: 18px;
+}
+
 #Skills {
 	border-bottom: 1px solid #636363;
-	padding: 40px 0;
+	padding: 40px 0 0;
 	overflow: hidden;
 }
 
@@ -238,19 +252,90 @@ Resumé Page
 	color: #636363;
 }
 
+#education {
+	padding: 40px 0;
+	border-bottom: 1px solid #636363;
+	overflow: hidden;
+}
+
+#education .LeftColumn {
+	padding: 0;
+}
+
+#education .RightColumn{
+	overflow: hidden;
+	line-height: 12px;
+}
+
+#education .RightColumn .LeftColumn{
+	padding-top: 20px;
+	width: 45%;
+}
+
+#education .RightColumn .LeftColumn ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
+#education .RightColumn .RightColumn {
+	padding-top: 5px;
+	width: 40%;
+}
+
+#education .RightColumn .RightColumn ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
 #experience {
 	padding: 40px 0;
 	border-bottom: 1px solid #636363;
 	overflow: hidden;
 }
 
-#education {
+#experience .RightColumn ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
+#volunteer {
+	border-bottom: 1px solid #636363;
 	padding: 40px 0;
 	overflow: hidden;
 }
 
-#education {
-	
+#volunteer .RightColumn p {
+	line-height: 8px;
+}
+
+#volunteer ul {
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
+#hobbies {
+	border-bottom: 1px solid #636363;
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+#hobbies ul{
+	line-height: 28px;
+	font-size: 18px;
+	color: #636363;
+}
+
+#awards {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+#awards .RightColumn p {
+	line-height: 8px;
 }
 
 
@@ -264,7 +349,7 @@ Contact
 	text-decoration: none;
 }
 
-#contact_info .LeftColumn a{
+#contact_info .LeftColumn a {
 	font-size: 20px;
 	display: block;
 }
