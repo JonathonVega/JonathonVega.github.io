@@ -1,0 +1,156 @@
+/*************************************
+
+General Setup 
+
+*************************************/
+
+body {
+  	margin: 30px 300px;
+	/*padding: 35px 375px;*/
+}
+
+header {
+	margin-bottom: 25px;
+  	/*padding: 20px;*/
+}
+
+
+.navline {
+	border-right: 1px solid #D69764;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	margin: 0 auto 55px;
+  	padding: 5px;
+	width: 500px;
+}
+
+nav ul {
+	margin: 0;
+	text-align: left;	
+	text-indent: 0;
+}
+
+nav li {
+	font-size: 20px;
+	display: inline-block;
+	margin: 0 -2px;
+	padding: 0 14px 0 16px;
+}
+
+.LeftColumn {
+	margin-top: -25px;
+	width: 45%;
+	float: left;
+}
+
+.RightColumn {
+	margin-top: -25px;
+	float: right;
+	width: 45%;
+}
+
+
+
+/*************************************
+
+Blog Post Setup
+
+*************************************/
+
+div {
+	margin: 0;
+	padding: 0;
+	
+}
+
+div p{
+	text-indent: 50px;
+	font-size: 18px;
+	line-height: 28px;
+	
+}
+
+div .date {
+	text-align: left;
+	text-indent: 0px;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************************************
+
+Colors 
+
+*************************************/
+/*
+persimmon: #EE7500
+nut brown: #D69764
+almond: #F1EDEA
+grey: #636363
+slate: #393D40
+*/
+
+header {
+	background-color: #FFF;
+}
+
+header div {
+	background: #D69764;
+}
+
+body {
+	background: #FFFFFF;
+}
+
+.post {
+	background: #FFF;
+}
+
+.post h3 {
+	color: #393D40;
+}
+
+.post p {
+	color: #636363;
+}
+
+p {
+	color: #393D40;
+}
+
+
+
+
+/*************************************
+
+Links
+
+*************************************/
+
+a:link {
+	color: #636363;
+}
+
+a:visited {
+	color: #393D40;
+}
+
+a:hover {
+	color: #EE7500;
+}
+
+
