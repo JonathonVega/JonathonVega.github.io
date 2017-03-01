@@ -132,9 +132,14 @@ Blog Page
 	/*border: 1px solid red;*/
 }
 
+#blog div a {
+	color: #D69764;
+}
+
 .firstPost {
 	margin: 0 auto 0px;
 	font-size: 18px;
+	line-height: 12px;
 }
 
 .firstPost h3 {
@@ -142,8 +147,8 @@ Blog Page
 }
 
 .firstPost p {
-	/*text-indent: 50px;
-	line-height: 28px;*/
+	text-indent: 50px;
+	line-height: 28px;
 }
 
 .post {
@@ -176,9 +181,32 @@ Project Page
 
 *************************************/
 
-#projects p{
-	/*text-indent: 50px;*/
+#projects p {
 	font-size: 18px;
+}
+
+#projects img {
+	height: 150px;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#projects .projectRow {
+	border: 1px solid red;
+	text-align: center;
+}
+
+#projects .projectRow div {
+	display: inline-block;
+	margin: 0 25px;
+	border: 1px solid red;
+	width: 150px;
+}
+
+#projects .projectRow div img{
+	text-align: center;
 }
 
 
