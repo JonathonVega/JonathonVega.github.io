@@ -183,30 +183,35 @@ Project Page
 
 #projects p {
 	font-size: 18px;
+	text-align: center;
 }
 
 #projects img {
 	height: 150px;
-	width: 150px;
+	/*width: 150px;*/
 	margin: 0;
-	padding: 0;
+	padding-left: 30px;
 	text-align: center;
 }
 
-#projects .projectRow {
-	border: 1px solid red;
-	text-align: center;
+/* Gallery messes up if both are combined? */
+#projects ul {
+	list-style-type: none;
+	margin: 0;
+	padding 0;
 }
 
-#projects .projectRow div {
-	display: inline-block;
-	margin: 0 25px;
-	border: 1px solid red;
-	width: 150px;
+#projects ul {
+    display:inline;
+    position:relative;
+    margin:0;
+    padding:0;
 }
-
-#projects .projectRow div img{
-	text-align: center;
+/* -------------------- */
+    
+#projects ul li {
+	float: left;
+	width: 25%;
 }
 
 
