@@ -141,7 +141,6 @@ Blog Page
 	width: 750px;
 	margin: 0 auto;
 	padding: 0 0 20px;
-	font-size: 18px;
 	border-bottom: 1px solid #EE7500;
 }
 
@@ -158,6 +157,7 @@ Blog Page
 
 .post p {
 	line-height: 28px;
+	font-size: 18px;
 }
 
 #blog .date {
