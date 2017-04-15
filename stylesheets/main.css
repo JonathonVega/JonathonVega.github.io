@@ -57,6 +57,7 @@ nav li {
 
 
 
+
 /*************************************
 
 About Page 
@@ -136,24 +137,10 @@ Blog Page
 	color: #D69764;
 }
 
-.firstPost {
-	margin: 0 auto 0px;
-	font-size: 18px;
-	line-height: 12px;
-}
-
-.firstPost h3 {
-	text-align: left;
-}
-
-.firstPost p {
-	text-indent: 50px;
-	line-height: 28px;
-}
-
 .post {
 	width: 750px;
-	margin: 0 auto 50px;
+	margin: 0 auto;
+	padding: 0 0 20px;
 	font-size: 18px;
 	border-bottom: 1px solid #EE7500;
 }
@@ -162,8 +149,14 @@ Blog Page
 	text-align: left;
 }
 
+.post img {
+	height: 65%;
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+}
+
 .post p {
-	text-indent: 50px;
 	line-height: 28px;
 }
 
@@ -180,6 +173,11 @@ Blog Page
 Project Page
 
 *************************************/
+
+#projects div {
+	clear: both;
+	
+}
 
 #projects p {
 	font-size: 18px;
@@ -207,6 +205,13 @@ Project Page
     margin:0;
     padding:0;
 }
+
+#projects #hackathon {
+	padding-top: 20px;
+}
+
+
+
 /* -------------------- */
     
 #projects ul li {
@@ -247,6 +252,14 @@ Resumé Page
 
 .description {
 	font-size: 18px;
+}
+
+#download {
+	text-align: center;
+	border: 1px solid black;
+	width: 30%;
+	margin: 0 auto 30px;
+	padding: 0;
 }
 
 #Skills {
