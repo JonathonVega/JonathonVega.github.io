@@ -63,9 +63,9 @@ Blog Post Setup
 *************************************/
 
 div {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	
+	width: 750px;
 }
 
 div p{
@@ -81,11 +81,12 @@ div .date {
 	margin-top: -15px;
 }
 
-
-
-
-
-
+div img {
+	height: 65%;
+	width: 65%;
+	display: block;
+	margin: 0 auto 50px;
+}
 
 
 
