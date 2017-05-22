@@ -1,0 +1,199 @@
+/*************************************
+
+General Setup
+
+*************************************/
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	padding: 0;
+}
+
+
+nav {
+	margin: 0;
+	padding: 20px 0;
+	text-align: right;
+	background-color: #1A1A1A;
+
+}
+
+nav a {
+	display: inline-block;
+	font-size: 24px;
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.LeftColumn {
+	margin-top: -25px;
+	width: 45%;
+	float: left;
+}
+
+.RightColumn {
+	margin-top: -25px;
+	float: right;
+	width: 45%;
+}
+
+footer {
+	background: #202020;
+	padding: 75px 500px;
+	text-align: center;
+	overflow: hidden;
+}
+
+footer p {
+	color: #e0e0e0;
+	margin-top: 0;
+	padding: 0;
+}
+
+footer a {
+	display: block;
+}
+
+
+
+/*************************************
+
+Blog Page
+
+*************************************/
+
+#blog {
+	margin: 0;
+	padding: 50px 0;
+	/*border: 1px solid red;*/
+}
+
+#blog div a {
+	color: #636363;
+}
+
+.post {
+	width: 750px;
+	margin: 0 auto;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #636363;
+}
+
+.post h3 {
+	text-align: left;
+}
+
+.post img {
+	height: 65%;
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+}
+
+.post p {
+	line-height: 28px;
+	font-size: 18px;
+}
+
+#blog .date {
+	text-align: left;
+	text-indent: 0px;
+	margin-top: -15px;
+}
+
+
+
+/*************************************
+
+Contact
+
+*************************************/
+
+#contact_info {
+	text-decoration: none;
+}
+
+#contact_info .LeftColumn a {
+	font-size: 20px;
+	display: block;
+}
+
+#contact_info .RightColumn {
+	font-size: 20px;
+}
+
+#contact_info img {
+	width: 40px;
+	height: 40px;
+	margin: 10px 1px;
+}
+
+#contact_info p {
+	font-size: 18px;
+}
+
+#contact_info div a{
+ display: inline-block;
+}
+
+
+
+/*************************************
+
+Colors
+
+*************************************/
+/*
+persimmon: #EE7500
+nut brown: #D69764
+almond: #F1EDEA
+grey: #636363
+slate: #393D40
+*/
+
+header {
+	background-color: #FFF;
+}
+
+header div {
+	background: #D69764;
+}
+
+body {
+	background: #FFFFFF;
+}
+
+.post {
+	background: #FFF;
+}
+
+.post h3 {
+	color: #393D40;
+}
+
+.post p {
+	color: #636363;
+}
+
+p {
+	color: #393D40;
+}
+
+/*************************************
+
+Links
+
+*************************************/
+
+a:link {
+	color: #636363;
+}
+
+a:visited {
+	color: white;
+}
