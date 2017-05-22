@@ -1,45 +1,33 @@
 /*************************************
 
-General Setup 
+General Setup
 
 *************************************/
 
-body {
-  	margin: 30px 300px;
-	/*padding: 35px 375px;*/
+html, body {
+	padding: 0;
+	margin: 0;
 }
 
 header {
-	margin-bottom: 25px;
-  	/*padding: 20px;*/
+	padding: 0;
 }
 
-
-.navline {
-	border-right: 1px solid #D69764;
-}
-
-a {
-	text-decoration: none;
-}
 
 nav {
-	margin: 0 auto 55px;
-  	padding: 5px;
-	width: 500px;
-}
-
-nav ul {
 	margin: 0;
-	text-align: left;	
-	text-indent: 0;
+	padding: 20px 0;
+	text-align: right;
+	background-color: #1A1A1A;
+
 }
 
-nav li {
-	font-size: 20px;
+nav a {
 	display: inline-block;
-	margin: 0 -2px;
-	padding: 0 14px 0 16px;
+	font-size: 24px;
+	padding: 0 20px;
+	color: white;
+	text-decoration: none;
 }
 
 .LeftColumn {
@@ -54,26 +42,46 @@ nav li {
 	width: 45%;
 }
 
+footer {
+	background: #202020;
+	padding: 75px 500px;
+	text-align: center;
+	overflow: hidden;
+}
+
+footer p {
+	color: #e0e0e0;
+	margin-top: 0;
+	padding: 0;
+}
+
+footer a {
+	display: block;
+}
 
 
 
 
 /*************************************
 
-About Page 
+About Page
 
 *************************************/
 
 #about {
 	margin: 0 auto;
+	padding: 94px 0;
 	font-size: 18px;
+	background-color: #E8E8E8;
 }
 
 #about img {
-	width: 45%;
-	height: 45%;
-	margin: 0 27%;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+	text-align: center;
 	border-radius: 100%;
+	display: block;
 }
 
 #about p {
@@ -88,82 +96,13 @@ About Page
 
 #overview {
 	margin-bottom: 30px;
-	
+
 }
 
 #overview p{
 	text-align: center;
-}
-
-#skills {
-	background: #F1EDEA;
-	margin: 0 -300px;
-	padding: 5px 300px;
-	overflow: hidden;
-	
-}
-
-#skills ul {
-	height: 175px;
-	line-height: 36px;
-	padding-left: 20px;
-	color: #636363;
-}
-
-#skills div {
-	
-}
-
-#skills p{
-	text-align: left;
-}
-
-#more p {
-	line-height: 12px;
-}
-
-
-/*************************************
-
-Blog Page
-
-*************************************/
-
-#blog {
-	/*border: 1px solid red;*/
-}
-
-#blog div a {
-	color: #D69764;
-}
-
-.post {
-	width: 750px;
+	width: 60%;
 	margin: 0 auto;
-	padding: 0 0 20px;
-	border-bottom: 1px solid #EE7500;
-}
-
-.post h3 {
-	text-align: left;
-}
-
-.post img {
-	height: 65%;
-	width: 65%;
-	display: block;
-	margin: 0 auto;
-}
-
-.post p {
-	line-height: 28px;
-	font-size: 18px;
-}
-
-#blog .date {
-	text-align: left;
-	text-indent: 0px;
-	margin-top: -15px;
 }
 
 
@@ -173,10 +112,17 @@ Blog Page
 Project Page
 
 *************************************/
+#projects {
+	text-align: center;
+	margin: 75px 0;
+}
 
 #projects div {
 	clear: both;
-	
+}
+
+#projects h3 {
+	margin: 0;
 }
 
 #projects p {
@@ -192,11 +138,22 @@ Project Page
 	text-align: center;
 }
 
+#projects .title {
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #636363;
+	text-align: center;
+	border-bottom: 1px solid #636363;
+}
+
 /* Gallery messes up if both are combined? */
 #projects ul {
 	list-style-type: none;
 	margin: 0;
-	padding 0;
+	padding: 0;
 }
 
 #projects ul {
@@ -213,7 +170,7 @@ Project Page
 
 
 /* -------------------- */
-    
+
 #projects ul li {
 	float: left;
 	width: 25%;
@@ -227,153 +184,191 @@ Resumé Page
 
 *************************************/
 
-#resume {
-	margin:0 auto;
-}
-
-#resume p {
-	color: #636363;
-}
-
-#resume .LeftColumn {
-	width: 10%;
-	font-size: 20px;
-}
-
-#resume .RightColumn {
-	width: 70%;
-	font-size: 20px;
-	padding:0 30px;
-}
-
-.position {
-	color: #393D40;
-}
-
-.description {
-	font-size: 18px;
-}
-
 #download {
 	text-align: center;
 	border: 1px solid black;
 	width: 30%;
 	margin: 0 auto 30px;
 	padding: 0;
+
 }
 
-#Skills {
-	border-bottom: 1px solid #636363;
-	padding: 30px 0;
+
+
+#skills {
+	margin: 0 auto;
+	padding: 75px 0;
 	overflow: hidden;
+	text-align: center;
+	background-color: #303030;
 }
 
-#Skills .LeftColumn {
+#skills .title {
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #E8E8E8;
+	text-align: center;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+#skills h3 {
+	margin: 0;
+	color: #E8E8E8;
+	text-align: center;
+}
+
+#skillsBox {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 25px;
+
+}
+
+#skills .LeftColumn {
 	padding: 0;
+	text-align: center;
 }
 
-#Skills .RightColumn{
-	overflow: hidden;
+#skills .RightColumn{
+	margin-top: -25px;
+	text-align: center;
 }
 
-#Skills .RightColumn .LeftColumn{
-	padding-top: 20px;
-	width: 45%;
+#skills ul {
+	list-style-type: none;
+	margin: 10px auto;
+	padding: 0;
+	color: #E8E8E8;
+	line-height: 24px;
 }
 
-#Skills .RightColumn .LeftColumn ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
 
-#Skills .RightColumn .RightColumn {
-	padding-top: 20px;
-	width: 40%;
-}
 
-#Skills .RightColumn .RightColumn ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
+
+
+
+
+
+
 
 #education {
-	padding: 30px 0;
+	margin: 0 auto;
+	padding: 75px 0;
+	text-align: left;
+	background-color: #E8E8E8;
+}
+
+#education .title {
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
 	border-bottom: 1px solid #636363;
+}
+
+#education h3 {
+	margin: 0;
+	margin-top: 10px;
+	line-height: normal;
+	text-align: left;
+}
+
+#educationBox {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#educationBox p {
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+#coursework {
+	margin-top: 0px;
+	padding-left: 50px;
+}
+
+#coursework ul {
+	line-height: 25px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 18px;
+}
+
+#coursework li {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#experience {
+	margin: 0;
+	padding-bottom: 75px;
+	background-color: #E8E8E8;
+}
+
+#experience .title {
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	border-bottom: 1px solid #636363;
+}
+
+#experienceBox {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#experienceBox h3 {
+	margin: 10px 0;
+	padding: 0;
+	line-height: normal;
+}
+
+#experienceBox p{
+	margin: 0;
+	margin-top: 15px;
+	font-size: 18px;
+	clear: both;
+}
+
+#experienceBox .job {
+	margin: 0;
+	padding: 15px 0;
+}
+
+#experience .job p {
+	margin: 10px 0;
+}
+#experience .RightColumn {
+	text-align: right;
 	overflow: hidden;
 }
 
-#education .LeftColumn {
+.job .LeftColumn,.RightColumn {
+	margin: 0;
 	padding: 0;
 }
 
-#education .RightColumn{
-	overflow: hidden;
-	line-height: 12px;
-}
 
-#education .RightColumn .LeftColumn{
-	padding-top: 20px;
-	width: 45%;
-}
 
-#education .RightColumn .LeftColumn ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
 
-#education .RightColumn .RightColumn {
-	padding-top: 5px;
-	width: 40%;
-}
-
-#education .RightColumn .RightColumn ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
-
-#experience {
-	padding: 30px 0;
-	border-bottom: 1px solid #636363;
-	overflow: hidden;
-}
-
-#experience .RightColumn ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
-
-#volunteer {
-	border-bottom: 1px solid #636363;
-	padding: 30px 0;
-	overflow: hidden;
-}
-
-#volunteer .RightColumn p {
-	line-height: 8px;
-}
-
-#volunteer ul {
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
-
-#hobbies {
-	border-bottom: 1px solid #636363;
-	padding: 30px 0;
-	overflow: hidden;
-}
-
-#hobbies ul{
-	line-height: 28px;
-	font-size: 18px;
-	color: #636363;
-}
 
 #awards {
 	padding: 30px 0;
@@ -407,18 +402,23 @@ Contact
 #contact_info img {
 	width: 40px;
 	height: 40px;
-	margin: 0 1px;
+	margin: 10px 1px;
 }
 
 #contact_info p {
 	font-size: 18px;
 }
 
+#contact_info div a{
+ display: inline-block;
+}
+
+
 
 
 /*************************************
 
-Colors 
+Colors
 
 *************************************/
 /*
@@ -468,12 +468,9 @@ a:link {
 }
 
 a:visited {
-	color: #393D40;
+	color: white;
 }
 
-a:hover {
+/*a:hover {
 	color: #EE7500;
-}
-
-
-
+}*/
