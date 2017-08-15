@@ -26,7 +26,7 @@ nav a {
 	display: inline-block;
 	font-size: 24px;
 	padding: 0 20px;
-	color: white;
+	color: #E8E8E8;
 	text-decoration: none;
 }
 
@@ -73,6 +73,7 @@ About Page
 	padding: 94px 0;
 	font-size: 18px;
 	background-color: #E8E8E8;
+	/*background-color: #E8E8E8;*/
 }
 
 #about img {
@@ -87,6 +88,7 @@ About Page
 #about p {
 	line-height: 28px;
 	color: #636363;
+	/*color: #636363;*/
 }
 
 #about .title{
@@ -264,6 +266,7 @@ Resumé Page
 #education .title {
 	width: 55%;
 	margin: 0 auto;
+	margin-bottom: 40px;
 	padding-bottom: 20px;
 	font-size: 20px;
 	letter-spacing: 2px;
@@ -274,6 +277,7 @@ Resumé Page
 #education h3 {
 	margin: 0;
 	margin-top: 10px;
+	font-size: 20px;
 	line-height: normal;
 	text-align: left;
 }
@@ -336,9 +340,12 @@ Resumé Page
 }
 
 #experienceBox h3 {
-	margin: 10px 0;
+	margin-top: 10px;
+	margin-bottom: 15px;
 	padding: 0;
+	font-size: 20px;
 	line-height: normal;
+	letter-spacing: 0.5px;
 }
 
 #experienceBox p{
@@ -349,13 +356,22 @@ Resumé Page
 }
 
 #experienceBox .job {
-	margin: 0;
+	margin-top: 10px;
 	padding: 15px 0;
 }
 
 #experience .job p {
 	margin: 10px 0;
+	padding-top: 10px;
+	line-height: 28px;
+	font-size: 20px;
 }
+
+#experience .RightColumn p{
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
 #experience .RightColumn {
 	text-align: right;
 	overflow: hidden;
@@ -368,18 +384,6 @@ Resumé Page
 
 
 
-
-
-#awards {
-	padding: 30px 0;
-	overflow: hidden;
-}
-
-#awards .RightColumn p {
-	line-height: 8px;
-}
-
-
 /*************************************
 
 Contact
@@ -390,19 +394,16 @@ Contact
 	text-decoration: none;
 }
 
-#contact_info .LeftColumn a {
-	font-size: 20px;
-	display: block;
-}
-
-#contact_info .RightColumn {
-	font-size: 20px;
+#contact_info a{
+	margin: 10px 0;
+	font-size: 24px;
+	text-decoration: none;
 }
 
 #contact_info img {
 	width: 40px;
 	height: 40px;
-	margin: 10px 1px;
+	margin: 0 1px;
 }
 
 #contact_info p {
@@ -422,8 +423,7 @@ Colors
 
 *************************************/
 /*
-persimmon: #EE7500
-nut brown: #D69764
+
 almond: #F1EDEA
 grey: #636363
 slate: #393D40
@@ -464,11 +464,11 @@ Links
 *************************************/
 
 a:link {
-	color: #636363;
+	color: #E8E8E8;
 }
 
 a:visited {
-	color: white;
+	color: #E8E8E8;
 }
 
 /*a:hover {
