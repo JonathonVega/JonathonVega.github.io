@@ -74,17 +74,17 @@ Blog Page
 }
 
 #blog div a {
-	color: #636363;
+	color: black;
 }
 
 .post {
 	width: 750px;
 	margin: 0 auto;
-	padding: 0 0 20px;
+	padding: 0 0 35px;
 	border-bottom: 1px solid #636363;
 }
 
-.post h3 {
+.post h1 {
 	text-align: left;
 }
 
@@ -98,6 +98,11 @@ Blog Page
 .post p {
 	line-height: 28px;
 	font-size: 18px;
+}
+
+.post a {
+	padding: 3px;
+	text-decoration: none;
 }
 
 #blog .date {
@@ -118,19 +123,16 @@ Contact
 	text-decoration: none;
 }
 
-#contact_info .LeftColumn a {
-	font-size: 20px;
-	display: block;
-}
-
-#contact_info .RightColumn {
-	font-size: 20px;
+#contact_info a{
+	margin: 10px 0;
+	font-size: 24px;
+	text-decoration: none;
 }
 
 #contact_info img {
 	width: 40px;
 	height: 40px;
-	margin: 10px 1px;
+	margin: 0 1px;
 }
 
 #contact_info p {
@@ -191,7 +193,7 @@ Links
 *************************************/
 
 a:link {
-	color: #636363;
+	color: #E8E8E8;
 }
 
 a:visited {
